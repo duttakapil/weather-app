@@ -1,0 +1,82 @@
+.main {
+  opacity: 0.6;
+  position: absolute;  
+  margin-left: -10px;
+  margin-top: -10px;
+  height: 100%;
+  width: 100%;  
+}
+
+block {
+  position : relative;
+}
+
+.weather {
+  opacity: 0.7;
+  background-color: #000;
+  font-size: 2em;
+  color: #000;
+  text-align: center;    
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  margin: -70px 0 0 -170px;
+}
+
+.temp {  
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color : #666;
+  padding-bottom: 20px;
+}
+
+.temp li {
+  display : inline;  
+}
+
+#icon {
+  position: relative;
+  bottom: -17px;
+}
+
+#search {
+  height: 40px;
+  width: 13em;
+  position: absolute;
+  bottom: 10px;
+  right: 7em;
+  outline: none;
+  font-size: 20px;
+  opacity : 0.5;  
+  border-radius: 15px;  
+}
+
+#locate {
+  height: 46px;
+  width: 20%;
+  background-color: red;
+  position: absolute;
+  bottom: 10px;
+  right: 2em;
+  outline: none;
+  border : 0; 
+  font-size: 20px;
+  color : #FFF;  
+  opacity : 0.7;  
+  border-radius: 15px;
+}
+
+#convert {
+  height: 32px;
+  width: 30px;
+  border : 10%;
+  border-radius: 25px;
+  outline: none;  
+  position: absolute;
+  top: 26px;  
+  outline : none;
+  font-size: 18px;
+}
